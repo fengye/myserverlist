@@ -9,8 +9,8 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.send([
 		{
-			"name": "WLG iMac",
-			"ipaddr": "10.20.10.39",
+			"name": "WLG Windows",
+			"ipaddr": "10.20.10.182",
 			"port": "17788"
 		}
   	]))
